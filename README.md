@@ -1,9 +1,7 @@
-# Projeto de Biblioteca - Sistema RESTful para Criação e Empréstimo de Livros
+# Projeto ForumHubONE - Challenge One Alura Oracle
 
-Este projeto é o MVP para uma aplicação simples desenvolvida em Java utilizando o estilo arquitetural RESTful e clean
-architecture
-para a gestão de uma biblioteca escolar. Ele permite a criação, atualização, remoção e empréstimo de livros, fornecendo
-endpoints para interação com a aplicação.
+Este projeto foi realizado para o aprendizado e realização do Challenge Alura do programa ONE - Especialização Back End Java.
+Ele foi realizado em java com o consumo principal da framework Spring.
 
 ## Tecnologias Utilizadas
 
@@ -11,28 +9,26 @@ endpoints para interação com a aplicação.
 - Spring Boot
 - Spring Web
 - Spring Data JPA
+- Spring Security
 - Hibernate
 - Lombok
 - Banco de Dados MySQL
 - Postman
 - JWT
 - Princípios de Clean Arch
-- Jackson
+- SOLID
+
 
 # Consumo da Aplicação
 
 > [!TIP]
-> No diretório `./Postman Export` existe um arquivo nomeado `Biblioteca.postman_collection.json` com todos os endpoints configurados.
+> No diretório `./Postman Export` existe um arquivo nomeado `ForumHubONE.postman_collection.json` com todos os endpoints configurados.
 
-A aplicação é acessada através de endpoints HTTP. Aqui está o mapa dos endpoints disponíveis: **[Endpoints Disponíveis](./ENDPOINTS.md)**
+A aplicação é acessada através de endpoints HTTP. Existe um mapa dos endpoint em formato Json no diretório: `Postman Export`.
 
 # Banco de Dados
 
-> [!TIP]
-> No diretório `./mySQL` Contem arquivos úteis, como o arquivo sql para criação do banco, o schema para futura edição e uma imagem do banco para melhor interpretação.
-
-Foi utilizado o MySQL como banco de dados devido ao seu desempenho, escalabilidade e ampla adoção no mercado,
-facilitando futuras implementações colaborativas.
+Foi utilizado o MySQL como banco de dados devido ao seu desempenho, escalabilidade e ampla adoção no mercado, facilitando futuras implementações colaborativas.
 
 # Como Executar
 
@@ -45,7 +41,7 @@ facilitando futuras implementações colaborativas.
 **Clonar o Repositório:**
 
 ```sh
-git clone https://github.com/pedroHenrique57/ProjetoBiblioteca.git
+git clone https://github.com/pedroHenrique57/ForumHubONE.git
 ```
 
 ## Configurar o Banco de Dados
@@ -55,7 +51,7 @@ Configure as propriedades do banco de dados no arquivo `application.properties`.
 ## Compilar e Executar o Projeto
 
 > [!WARNING]
-> Dentro de um terminal, verifique se você está no diretório do projeto `./biblioteca` para rodar o comando.  
+> Dentro de um terminal, verifique se você está no diretório do projeto `./forumHubONE` para rodar o comando.  
 > caso esteja com dúvida verifique se existe um arquivo nomeado `Pom.xml` no diretório.
 
 Navegue até o diretório do projeto e abra um terminal. Neste terminal execute o seguinte comando:
