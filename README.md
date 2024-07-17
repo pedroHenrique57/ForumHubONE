@@ -1,7 +1,7 @@
 # Projeto ForumHubONE - Challenge One Alura Oracle
 
 Este projeto foi realizado para o aprendizado e realização do Challenge Alura do programa ONE - Especialização Back End Java.
-Ele foi realizado em java com o consumo principal da framework Spring.
+Ele foi projetado em java e tendo como principal pilar a framework Spring.
 
 ## Tecnologias Utilizadas
 
